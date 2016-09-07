@@ -1,4 +1,4 @@
-			Intro to Unix
+Intro to Unix
 ===================
 
 Points to Remember
