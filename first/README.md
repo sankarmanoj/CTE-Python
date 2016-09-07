@@ -9,7 +9,7 @@ For example a file in `/home/user/project/python` called *helloworld.py* can be 
 
 **Tilde operator ~** This refers to the home directory of the current user.  `/home/user/hello.txt` can also be referred to as `~/hello.txt`.  It takes the value of the path stored in $HOME
 
-__Wildcard operator -  \8 and ? __
+__ Wildcard operator -  \* and ? __
 `*` can be used to match with none or any  length of characters in a file or directory name.
 `?` will match with exactly one character.
 
