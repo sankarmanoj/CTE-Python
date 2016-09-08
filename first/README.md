@@ -31,6 +31,10 @@ These variables can be edited by using the export command.
 For example, to change HOME, use `export HOME=<new-directory>`
 To append a directory to PATH use `export PATH=$PATH:<new-directory>`
 
+The changes made using export are temporary, and will be lost when the terminal is restarted. To make permanent changes, consider adding the above commands to the .bashrc or .bash_profile files.
+
+**Run In Background using & **
+To run a command in the background use `&` after the normal command. For example, to run a python file in the background use `python file.py &` It will still print it's output to the terminal screen.
 
 ## List of Common Commands ##
  - ls
@@ -43,6 +47,7 @@ To append a directory to PATH use `export PATH=$PATH:<new-directory>`
  - cat
  - chmod
  - chown
+ - top
  - cp
  - mv
  - grep
@@ -68,3 +73,6 @@ Description of Selected Commands
 **rm** - Remove. This deletes files. `rm <file-to-be-deleted>`. To delete folders, recursively, use `rm -rf <folder-to-be-deleted>` . In this command *r* is for recursive and *f* is for force delete.
 
 **touch** - Create an empty file. `touch <empty-file-that-is-created>`
+
+**grep** - Used to match strings to a regular expression. For example to find all the .py files in a folder use `find folder/ | grep *.py`
+
