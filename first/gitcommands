@@ -1,0 +1,26 @@
+# Set up User Identity
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+#Print config
+git config --list
+
+#Create Repository
+git init
+
+#Add Files to Repository
+git add <files>
+
+#Commit Changes
+git commit
+
+
+#Clone Online Repository
+git clone <https-or-ssh-uri>
+
+#Print Current Status
+git status
+
+#Remove files
+git rm <files-to-be-deleted> #Removes file from disk and git
+gim rm --cached <files-to-be-deleted> #Only removes file from git
