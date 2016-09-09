@@ -1,0 +1,33 @@
+ASSIGNMENT-1:
+
+What's up? Here are the tasks for the assignment.
+
+Task-1:
+Initialize a variable with a string, and using list comprehension (a[:::] technique),
+print the 1st, 1st and 2nd, 1st 2nd and 3rd, and so on and so forth. The same in reverse(in opposite direction).
+(Note: No loops)
+Example:
+a = "Hello"
+
+Output:
+H
+He
+Hel
+Hell
+Hello
+olleH
+olle
+oll
+ol
+o
+
+Task-2:
+Take the Mass and Acceleration from the user and print out the Force applied due to these attributes.
+
+Example Output:
+Enter Mass -> 1.60
+Enter Accel -> 2.30
+Force = 3.68 N
+
+The solution will be put here, after the next class.
+PEACE \/
