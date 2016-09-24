@@ -1,0 +1,8 @@
+Create A Python Code that will accept a string.
+Find the frequency of each letter in that string.
+For example
+$ python frequency.py
+Enter a Input String
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, massa quis congue aliquet, ligula magna ullamcorper dui, ut efficitur nulla risus sed augue. Mauris a enim eget augue hendrerit tristique nec at lacus. Aliquam suscipit luctus mattis. Ut enim sem, gravida quis odio vitae, consequat maximus tortor. Sed at porta risus, ve
+l auctor leo. Nam lectus nunc, eleifend sed efficitur in, auctor ut nibh. Donec lorem augue, commodo vel massa vel, dictum laoreet enim.
+Output = {'a': 34, 'c': 19, 'b': 1, 'e': 43, 'd': 13, 'g': 9, 'f': 5, 'i': 38, 'h': 2, 'm': 21, 'l': 21, 'o': 21, 'n': 20, 'q': 8, 'p': 5, 's': 30, 'r': 21, 'u': 39, 't': 32, 'v': 6, 'x': 1}
