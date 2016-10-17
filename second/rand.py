@@ -16,7 +16,9 @@ print "Smallest Element in Array = ",min(randomArray)
 
 #Create New Array From the Existing Array
 newArray = randomArray
-anotherArray = copy.deepcopy(randomArray)
+
+anotherArray = newArray[:]
+# anotherArray = copy.deepcopy(randomArray)
 anotherArray = list(randomArray)
 #Update Starting Value
 newArray[0]=666

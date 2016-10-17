@@ -5,3 +5,5 @@ print "Values = ",mDict.values()
 #Convert Dictionary to Array of Tuples
 mDictAsArray = mDict.items()
 print "Dictionary as Array = ",mDictAsArray
+for x in mDict:
+    print x
